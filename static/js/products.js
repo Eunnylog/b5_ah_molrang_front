@@ -34,7 +34,8 @@ window.onload = async function localProducts() {
         if (product_list) {
             products.forEach((product) => {
                 const newCol = document.createElement("div");
-                newCol.setAttribute("class", "col");
+                newCol.setAttribute("class", "col p-box");
+                
 
                 const newCard = document.createElement("div");
                 newCard.setAttribute("class", "card");
